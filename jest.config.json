@@ -3,5 +3,6 @@
     "testPathIgnorePatterns": ["<rootDir>/node_modules/"],
     "moduleNameMapper": {
         "\\.(css|less)$": "identity-obj-proxy"
-    }
+    },
+    "reporters": ["default", "jest-junit"]
 }
